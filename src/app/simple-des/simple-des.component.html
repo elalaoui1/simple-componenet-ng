@@ -1,0 +1,18 @@
+<div class="container">
+<p>{{ des }}</p>
+<button (click)="updateDes()">update descipton</button>
+<nav>
+  <a class="button" routerLink="first"
+   routerLinkActive="activebutton"
+   ariaCurrentWhenActive="page" >
+   first
+  </a> |
+  <a class="button" routerLink="second"
+     routerLinkActive="activebutton"
+     ariaCurrentWhenActive="page">
+     second
+  </a>
+</nav>
+
+<router-outlet />
+</div>
